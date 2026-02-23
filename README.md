@@ -10,7 +10,6 @@ The pipeline ingests raw transactional data (NYC Taxi dataset), performs transfo
 
 Infrastructure is provisioned using Terraform to ensure reproducibility, scalability, and Infrastructure-as-Code best practices.
 
----
 
 ## 🛠 Development Environment
 
@@ -19,7 +18,6 @@ For local development and testing, the data warehouse layer is simulated using D
 
 All infrastructure is structured for AWS (S3, Glue, Step Functions, Redshift) and provisioned via Terraform.
 
----
 
 ## 🏗 Architecture
 
@@ -33,7 +31,6 @@ All infrastructure is structured for AWS (S3, Glue, Step Functions, Redshift) an
 
 (Architecture diagram to be added here)
 
----
 
 ## 🧱 Tech Stack
 
@@ -45,7 +42,6 @@ All infrastructure is structured for AWS (S3, Glue, Step Functions, Redshift) an
 - **Monitoring:** CloudWatch & SNS
 - **Language:** Python / SQL
 
----
 
 ## 📊 Data Modeling
 
@@ -63,7 +59,6 @@ Optimizations include:
 - Incremental load design
 - Query performance tuning
 
----
 
 ## ⚙️ Infrastructure Provisioning
 
