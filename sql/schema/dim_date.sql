@@ -1,4 +1,7 @@
 -- Dimension: Date
+-- Purpose: Date dimension derived from pickup/dropoff timestamps.
+-- Provides common reporting attributes (month, quarter, weekend flag) for time-based aggregations.
+
 CREATE TABLE dim_date (
   date_key DATE PRIMARY KEY,
   year SMALLINT NOT NULL,
