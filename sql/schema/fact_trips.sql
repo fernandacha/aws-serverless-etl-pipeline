@@ -2,7 +2,7 @@
 -- Purpose: Trip-level transactional fact table optimized for analytical workloads.
 -- Source: NYC TLC Yellow Taxi Trip Records.
 
-CREATE TABLE fact_trips (
+CREATE TABLE IF NOT EXISTS fact_trips (
   trip_id BIGSERIAL PRIMARY KEY,
 
   pickup_datetime TIMESTAMP NOT NULL,
