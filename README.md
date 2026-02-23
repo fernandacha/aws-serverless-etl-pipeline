@@ -18,6 +18,18 @@ For local development and testing, the data warehouse layer is simulated using D
 
 All infrastructure is structured for AWS (S3, Glue, Step Functions, Redshift) and provisioned via Terraform.
 
+## 📂 Dataset
+
+This project uses the NYC Taxi Yellow Trip dataset (May 2025).
+
+Due to file size constraints, raw data is not stored in the repository.
+
+You can download the dataset from:
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Place the downloaded file inside:
+data/raw/
+
 
 ## 🏗 Architecture
 
