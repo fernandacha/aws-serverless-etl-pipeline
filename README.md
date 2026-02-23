@@ -12,6 +12,15 @@ Infrastructure is provisioned using Terraform to ensure reproducibility, scalabi
 
 ---
 
+## 🛠 Development Environment
+
+This project is designed to be deployable to AWS.  
+For local development and testing, the data warehouse layer is simulated using Docker + PostgreSQL to avoid cloud costs.
+
+All infrastructure is structured for AWS (S3, Glue, Step Functions, Redshift) and provisioned via Terraform.
+
+---
+
 ## 🏗 Architecture
 
 **High-Level Flow:**
